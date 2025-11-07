@@ -9,7 +9,7 @@ public class ValidPalindrome {
             }
         }
         for(int i = 0; i < sb.length() / 2; i++){
-            if(sb.charAt(i) != sb.charAt(sb.length() - 1)){
+            if(sb.charAt(i) != sb.charAt(sb.length() - 1 - i)){
                 return false;
             }
         }
