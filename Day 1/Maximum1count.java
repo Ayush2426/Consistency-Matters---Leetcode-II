@@ -17,3 +17,4 @@ public class Maximum1count {
         m1c.count1(new int[]{1, 1, 0, 1, 0, 1, 1, 1, 1});
     }
 }
+//ONe day free streak
