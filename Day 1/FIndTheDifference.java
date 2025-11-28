@@ -9,7 +9,7 @@ public class FIndTheDifference {
         for(int i = 0; i < t.length(); i++){
             Tsum += t.charAt(i);
         }
-        int result = Ssum - Tsum;
+        int result = Tsum - Ssum;
         return (char) result;
     }
     public static void main(String[] args) {
