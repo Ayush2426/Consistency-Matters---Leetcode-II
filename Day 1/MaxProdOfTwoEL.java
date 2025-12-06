@@ -4,7 +4,7 @@ public class MaxProdOfTwoEL{
         Arrays.sort(nums);
         int firstEl = nums[nums.length - 1];
         int secEl = nums[nums.length - 2];
-        int MaxProd = firstEl * secEl;
+        int MaxProd = (firstEl - 1) * (secEl - 1);
         return MaxProd;
     }
     public static void main(String[] args) {
