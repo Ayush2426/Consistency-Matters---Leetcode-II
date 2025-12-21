@@ -17,5 +17,6 @@ public class IsSubsequence {
     public static void main(String[] args) {
         IsSubsequence is = new IsSubsequence();
         is.checkIfSubSequence("abc", "abcde");
+        is.checkIfSubSequence("abc", "ayush");
     }
 }
