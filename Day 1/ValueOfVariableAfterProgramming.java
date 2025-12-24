@@ -13,5 +13,6 @@ public class ValueOfVariableAfterProgramming {
     public static void main(String[] args) {
         ValueOfVariableAfterProgramming vovap = new ValueOfVariableAfterProgramming();
         vovap.findValueOfProgrammableVariable(new String[]{"X++", "X--", "X--", "--X", "++X"});
+        vovap.findValueOfProgrammableVariable(new String[]{"++X+", "X++", "X++", "++X", "++X"});
     }
 }
