@@ -10,6 +10,6 @@ public class ToLowercase{
     }
     public static void main(String[] args) {
         ToLowercase tl = new ToLowercase();
-        tl.toLowerCase("AyuSh");
+        System.out.println(tl.toLowerCase("AyuSh"));
     }
 }

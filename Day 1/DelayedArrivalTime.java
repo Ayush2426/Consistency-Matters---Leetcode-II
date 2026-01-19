@@ -9,6 +9,7 @@ public class DelayedArrivalTime {
     }
     public static void main(String[] args) {
         DelayedArrivalTime dat = new DelayedArrivalTime();
-        dat.calculateArrivalTime(12, 2);
+        int res = dat.calculateArrivalTime(12, 2);
+        System.out.println(res);
     }
 }
